@@ -159,7 +159,7 @@ def main():
             st.warning("Būtina nurodyti bent vieną raktažodį")
 
         elif len(context) <= 100:
-            print(len(context))
+            #print(len(context))
             st.warning("Teksto ilgis turėtu būti bent 100 spaudos ženklų")
         else:
             st.session_state["questions"] = generate_questions(model, tokenizer, context, keywords)
@@ -170,13 +170,6 @@ def main():
         with st.form(key='form_3'):
             st.write("form-3")
             unique_questions = unique_values_in_list(st.session_state["questions"])
-
-            """st_tags(
-                label = "Pasirinkite tinkamus klausimus",
-                text='',
-                value= unique_questions,
-                maxtags = 100
-            )"""
 
 
             check_boxes = [st.checkbox(question, key=question) for question in unique_questions]
