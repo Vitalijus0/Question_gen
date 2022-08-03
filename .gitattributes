@@ -1,1 +1,2 @@
 model/*.bin filter=lfs diff=lfs merge=lfs -text
+model_versions/2021-11-21_5_epoch_squad_sciq/model/*.bin filter=lfs diff=lfs merge=lfs -text
