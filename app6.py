@@ -4,27 +4,27 @@ import streamlit.components.v1 as components
 import torch
 from transformers import T5ForConditionalGeneration,T5Tokenizer
 from streamlit_tags import st_tags
-import json
-import requests
-import string
-import re
-import nltk
-from nltk.corpus import stopwords
-from nltk.corpus import wordnet
-import traceback
-from nltk.tokenize import sent_tokenize
-from flashtext import KeywordProcessor
+#import json
+#import requests
+#import string
+#import re
+#import nltk
+#from nltk.corpus import stopwords
+#from nltk.corpus import wordnet
+#import traceback
+#from nltk.tokenize import sent_tokenize
+#from flashtext import KeywordProcessor
 #import lt_core_news_lg
-import pke
+#import pke
 import spacy
 import pandas as pd
 import numpy as np
 #import spacy_streamlit
 #from spacy_streamlit import visualize_ner
-import docx2txt
-import pdfplumber
-import time
-import importlib.util
+#import docx2txt
+#import pdfplumber
+#import time
+#import importlib.util
 
 import base64
 from functionforDownloadButtons import download_button
