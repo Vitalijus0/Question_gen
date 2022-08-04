@@ -7,6 +7,7 @@ torch==1.11.0
 torch-tb-profiler==0.2.1
 torchaudio==0.11.0
 #torchvision==0.10.0
+tokenizers
 pke @ git+https://github.com/boudinfl/pke.git@dc4d5f21e0ffe64c4df93c46146d29d1c522476b
 lt_core_news_lg @ https://github.com/explosion/spacy-models/releases/download/lt_core_news_lg-3.4.0/lt_core_news_lg-3.4.0.tar.gz
 transformers==4.8.1
