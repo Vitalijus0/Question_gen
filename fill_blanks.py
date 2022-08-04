@@ -1,18 +1,18 @@
-import json
-import requests
+#import json
+#import requests
 import string
 import re
-import nltk
+#import nltk
 import string
 import itertools
 
-from nltk.corpus import stopwords
-from nltk.corpus import wordnet
-import traceback
+#from nltk.corpus import stopwords
+#from nltk.corpus import wordnet
+#import traceback
 from nltk.tokenize import sent_tokenize
 from flashtext import KeywordProcessor
 #import lt_core_news_sm
-import pke
+#import pke
 import spacy
 import pandas as pd
 import numpy as np
