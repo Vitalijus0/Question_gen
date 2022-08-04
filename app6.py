@@ -1,5 +1,5 @@
 import streamlit as st
-import extra_streamlit_components as stx
+#import extra_streamlit_components as stx
 import streamlit.components.v1 as components
 import torch
 from transformers import T5ForConditionalGeneration,T5Tokenizer
