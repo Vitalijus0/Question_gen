@@ -9,7 +9,7 @@ import itertools
 #from nltk.corpus import stopwords
 #from nltk.corpus import wordnet
 #import traceback
-#from nltk.tokenize import sent_tokenize
+from nltk.tokenize import sent_tokenize
 from flashtext import KeywordProcessor
 #import lt_core_news_sm
 #import pke
